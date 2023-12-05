@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+}
+
+#fixed img{
+    width: 100%;
+    
+}
+
+#fixed{
+    width: 50px;
+    height: 50px;
+    background-color: ;
+    border: none;
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    border-radius: 50%;
+}
+
+#title{
+    background-color: rgb(246, 246, 246);
+    text-align: center;
+    
+    
+
+}
+
+#title img{
+    width: 11%;
+    padding: 20px;
+
+}
+
+#menu{
+    text-align: center;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    position: sticky;
+    top: 0;
+    border-bottom: 2px solid #ecedef;
+
+    
+    
+}
+#menu a{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+    
+    
+}
+
+
+#menu a:hover{
+    border-bottom: 1px solid black;
+    
+}
+
+
+#image{
+    text-align: center;
+    margin: 10px 0px;
+   
+}
+#image img{
+    width: 65%;
+}
+
+#about {
+    
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#about img{
+    width: 30%;
+}
+
+#about pre{
+    font-size: 16px;
+    font-family: cursive;
+    
+    color: #8e8e94;
+}
+
+#about p{
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+h5{
+    font-size: 25px;
+    font-weight: 500;
+    margin:0 17% 1%;
+}
+
+#main {
+    display: flex;
+    margin: 0 12%;
+    margin-bottom: 22%;
+    
+}
+
+#proudct {
+    position: relative;
+    width: 20%;
+    margin: auto;
+    
+    
+}
+
+
+
+#proudct img{
+    width: 100%;
+    
+
+}
+
+#overlay{
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    transform: scale(0);
+
+}
+
+#proudct:hover #overlay{
+    transform: scale(1);
+    
+    
+} 
+
+#overlay button{
+    width: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 0px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+#overlay button:hover{
+    background-color: rgb(215, 8, 8);
+    
+}
+
+
+
+
+
